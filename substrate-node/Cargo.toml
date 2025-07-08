@@ -1,0 +1,25 @@
+[package]
+name = "substrate-node"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+# Workspace dependencies
+serde = { workspace = true }
+serde_json = { workspace = true }
+uuid = { workspace = true }
+chrono = { workspace = true }
+anyhow = { workspace = true }
+thiserror = { workspace = true }
+
+# Substrate dependencies (simplified for now)
+# sp-core = { workspace = true }
+# sp-runtime = { workspace = true }
+# frame-support = { workspace = true }
+# frame-system = { workspace = true }
+# pallet-balances = { workspace = true }
+# codec = { package = "parity-scale-codec", version = "3.0", features = ["derive"] }
+# scale-info = { version = "2.0", features = ["derive"] }
+
+# Local dependencies
+identity-core = { path = "../identity-core" }

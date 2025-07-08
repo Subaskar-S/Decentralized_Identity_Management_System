@@ -1,0 +1,49 @@
+[workspace]
+members = [
+    "identity-core",
+    "attestors", 
+    "substrate-node",
+    "ipfs-client",
+    "cli",
+]
+resolver = "2"
+
+[workspace.dependencies]
+# Cryptography
+bls12_381 = "0.8"
+schnorrkel = "0.11"
+sha2 = "0.10"
+rand = "0.8"
+rand_core = "0.6"
+pairing = "0.23"
+
+# Serialization
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+uuid = { version = "1.0", features = ["v4", "serde"] }
+chrono = { version = "0.4", features = ["serde"] }
+
+# Async and networking
+tokio = { version = "1.0", features = ["full"] }
+reqwest = { version = "0.11", features = ["json"] }
+
+# Substrate and blockchain (commented out for initial setup)
+# sp-core = "21.0"
+# sp-runtime = "24.0"
+# frame-support = "4.0"
+# frame-system = "4.0"
+# pallet-balances = "4.0"
+
+# IPFS
+ipfs-api-backend-hyper = "0.6"
+
+# CLI
+clap = { version = "4.0", features = ["derive"] }
+anyhow = "1.0"
+thiserror = "1.0"
+
+# Testing
+tokio-test = "0.4"
+
+[profile.release]
+panic = "unwind"

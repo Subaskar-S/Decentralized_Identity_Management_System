@@ -1,0 +1,28 @@
+[package]
+name = "identity-cli"
+version = "0.1.0"
+edition = "2021"
+
+[[bin]]
+name = "identity-cli"
+path = "src/main.rs"
+
+[dependencies]
+# Workspace dependencies
+serde = { workspace = true }
+serde_json = { workspace = true }
+uuid = { workspace = true }
+chrono = { workspace = true }
+clap = { workspace = true }
+anyhow = { workspace = true }
+thiserror = { workspace = true }
+tokio = { workspace = true }
+
+# Local dependencies
+identity-core = { path = "../identity-core" }
+attestors = { path = "../attestors" }
+ipfs-client = { path = "../ipfs-client" }
+
+# CLI specific
+dialoguer = "0.11"
+indicatif = "0.17"

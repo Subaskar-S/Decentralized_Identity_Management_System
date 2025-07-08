@@ -1,0 +1,27 @@
+[package]
+name = "attestors"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+# Workspace dependencies
+serde = { workspace = true }
+serde_json = { workspace = true }
+uuid = { workspace = true }
+chrono = { workspace = true }
+bls12_381 = { workspace = true }
+schnorrkel = { workspace = true }
+sha2 = { workspace = true }
+rand = { workspace = true }
+rand_core = { workspace = true }
+anyhow = { workspace = true }
+thiserror = { workspace = true }
+tokio = { workspace = true }
+
+# Local dependencies
+identity-core = { path = "../identity-core" }
+
+# Threshold cryptography specific
+group = "0.13"
+ff = "0.13"
+pairing = "0.23"

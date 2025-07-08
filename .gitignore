@@ -1,0 +1,32 @@
+# Rust
+/target/
+**/*.rs.bk
+Cargo.lock
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Environment
+.env
+.env.local
+
+# IPFS
+.ipfs/
+
+# Substrate
+/substrate-node/target/
+/substrate-node/Cargo.lock
+
+# Test artifacts
+/test-results/
+/coverage/

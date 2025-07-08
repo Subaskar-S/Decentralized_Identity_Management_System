@@ -1,0 +1,24 @@
+[package]
+name = "ipfs-client"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+# Workspace dependencies
+serde = { workspace = true }
+serde_json = { workspace = true }
+tokio = { workspace = true }
+reqwest = { workspace = true }
+anyhow = { workspace = true }
+thiserror = { workspace = true }
+
+# IPFS specific
+ipfs-api-backend-hyper = { workspace = true }
+futures = "0.3"
+bytes = "1.0"
+
+# Additional dependencies
+chrono = { workspace = true }
+
+# Local dependencies
+identity-core = { path = "../identity-core" }
