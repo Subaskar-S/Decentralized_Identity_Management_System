@@ -114,8 +114,6 @@ decentralized-identity-system/
 ├── 📂 ipfs-client/           # Decentralized storage interface
 ├── 📂 cli/                   # Command-line interface
 ├── 📂 tests/                 # Integration tests & benchmarks
-├── 📄 INTERVIEW_QUESTIONS.md # Comprehensive interview guide
-├── 📄 PROJECT_STRUCTURE.md   # Detailed architecture documentation
 └── 📄 SETUP_GUIDE.md         # Complete setup instructions
 ```
 
