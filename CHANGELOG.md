@@ -129,4 +129,4 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for details on how to contribute to this 
 
 For questions and support:
 - 📧 Email: subaskar.sr@gmail.com
-- 🐛 Issues: [GitHub Issues](https://github.com/your-username/decentralized-identity-system/issues)
+- 🐛 Issues: [GitHub Issues](https://github.com/Subaskar-S/Decentralized_Identity_Management_System/issues)
