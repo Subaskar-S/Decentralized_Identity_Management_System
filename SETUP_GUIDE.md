@@ -269,14 +269,8 @@ export SUBSTRATE_ENDPOINT="wss://production-substrate-node:9944"
 - [IPFS Documentation](https://docs.ipfs.io/)
 - [Substrate Documentation](https://docs.substrate.io/)
 
-### Community
-- [GitHub Issues](https://github.com/your-username/decentralized-identity-system/issues)
-- [Discord Community](https://discord.gg/your-server)
-- [Stack Overflow](https://stackoverflow.com/questions/tagged/decentralized-identity)
-
 ### Contributing
 - Read [CONTRIBUTING.md](CONTRIBUTING.md)
-- Follow [Code of Conduct](CODE_OF_CONDUCT.md)
 - Submit pull requests with tests
 - Report bugs with detailed reproduction steps
 

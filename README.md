@@ -233,8 +233,6 @@ cargo run --bin identity-cli -- demo cross-border
 
 ### 📖 Documentation
 - [📄 Setup Guide](SETUP_GUIDE.md) - Complete installation and configuration
-- [📄 Project Structure](PROJECT_STRUCTURE.md) - Detailed architecture overview
-- [📄 Interview Questions](INTERVIEW_QUESTIONS.md) - Technical interview preparation
 
 ### 🎓 Learning Resources
 - [Rust Book](https://doc.rust-lang.org/book/) - Learn Rust programming
@@ -246,7 +244,6 @@ cargo run --bin identity-cli -- demo cross-border
 - **GitHub Issues**: Bug reports and feature requests
 - **Discord**: Real-time community support
 - **Stack Overflow**: Technical Q&A with `decentralized-identity` tag
-- **Twitter**: [@DecentralizedID](https://twitter.com/DecentralizedID) for updates
 
 ## 🏆 Use Cases & Applications
 
@@ -300,13 +297,21 @@ This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) 
 
 ---
 
+## 👨‍💻 Made by
+
 <div align="center">
+
+### **Subaskar_S**
+
+*Full-Stack Developer & Blockchain Enthusiast*
+
+[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Subaskar-S)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/subaskar97)
+
+</div>
+
+---
 
 **⭐ Star this repository if you find it useful!**
 
-[🐛 Report Bug](https://github.com/your-username/decentralized-identity-system/issues) •
-[✨ Request Feature](https://github.com/your-username/decentralized-identity-system/issues) •
-[💬 Join Discord](https://discord.gg/your-server) •
-[📧 Contact](mailto:contact@your-domain.com)
-
-</div>
+**🔔 Watch this repository to stay updated with the latest features and improvements!**

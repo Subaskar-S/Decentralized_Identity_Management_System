@@ -128,6 +128,5 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for details on how to contribute to this 
 ## Support
 
 For questions and support:
-- 📧 Email: support@your-domain.com
-- 💬 Discord: [Join our community](https://discord.gg/your-server)
+- 📧 Email: subaskar.sr@gmail.com
 - 🐛 Issues: [GitHub Issues](https://github.com/your-username/decentralized-identity-system/issues)

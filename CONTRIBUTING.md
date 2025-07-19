@@ -122,11 +122,6 @@ mod tests {
 - Avoid custom crypto implementations
 - Consider timing attack vulnerabilities
 
-### Reporting Security Issues
-- **DO NOT** open public issues for security vulnerabilities
-- Email security@your-domain.com with details
-- Allow 90 days for responsible disclosure
-
 ## 🎯 Areas for Contribution
 
 ### High Priority
@@ -174,18 +169,6 @@ Contributors will be recognized in:
 - Release notes for significant contributions
 - Annual contributor appreciation posts
 
-## 📞 Getting Help
-
-### Communication Channels
-- **GitHub Issues**: Bug reports and feature requests
-- **Discord**: Real-time development discussion
-- **Email**: security@your-domain.com for security issues
-
-### Mentorship
-- New contributors can request mentorship
-- Experienced contributors are encouraged to mentor
-- Pair programming sessions available for complex features
-
 ## 📜 Code of Conduct
 
 ### Our Pledge
@@ -197,9 +180,6 @@ We pledge to make participation in our project a harassment-free experience for 
 - Gracefully accepting constructive criticism
 - Focusing on what is best for the community
 - Showing empathy towards other community members
-
-### Enforcement
-Instances of abusive, harassing, or otherwise unacceptable behavior may be reported by contacting the project team at conduct@your-domain.com.
 
 ## 🎉 Thank You!
 
